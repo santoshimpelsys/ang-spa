@@ -16,6 +16,13 @@ import { SignupComponent } from './signup/signup.component';
 import { ContactAddressComponent } from './contactus/contact-address/contact-address.component';
 import { ContactFormComponent } from './contactus/contact-form/contact-form.component';
 import { ContactGmapComponent } from './contactus/contact-gmap/contact-gmap.component';
+import { MachineLearningComponent } from './ai-trends/machine-learning/machine-learning.component';
+import { DeepLearningComponent } from './ai-trends/deep-learning/deep-learning.component';
+import { GenAiComponent } from './ai-trends/gen-ai/gen-ai.component';
+import { ChatGptComponent } from './ai-trends/gen-ai/chat-gpt/chat-gpt.component';
+import { CopilotComponent } from './ai-trends/gen-ai/copilot/copilot.component';
+import { MidJourneyComponent } from './ai-trends/gen-ai/mid-journey/mid-journey.component';
+import { GeminiComponent } from './ai-trends/gen-ai/gemini/gemini.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +38,14 @@ import { ContactGmapComponent } from './contactus/contact-gmap/contact-gmap.comp
     SignupComponent,
     ContactAddressComponent,
     ContactFormComponent,
-    ContactGmapComponent
+    ContactGmapComponent,
+    MachineLearningComponent,
+    DeepLearningComponent,
+    GenAiComponent,
+    ChatGptComponent,
+    CopilotComponent,
+    MidJourneyComponent,
+    GeminiComponent
   ],
   imports: [
     BrowserModule,
