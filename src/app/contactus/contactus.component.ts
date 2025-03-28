@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component,Input,OnInit} from '@angular/core';
+// import { ContactAddressComponent } from './contact-address/contact-address.component';
 
 @Component({
   selector: 'app-contactus',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './contactus.component.css'
 })
 export class ContactusComponent {
-
+  message : string = "I am Parent";
+  childmessage : string = "I am passed from PARENT to CHILD"
 }

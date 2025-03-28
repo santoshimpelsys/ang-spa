@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component,Input,OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-contact-address',
@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
   templateUrl: './contact-address.component.html',
   styleUrl: './contact-address.component.css'
 })
-export class ContactAddressComponent {
-
+export class ContactAddressComponent implements OnInit{
+  @Input() greetMessage!: string ;
+  constructor(){
+    
+  }
+  ngOnInit(): void {
+    
+  }
 }
